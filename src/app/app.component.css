@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.bg-azul{
+    background-color: #5960B2;
+}
+
+.bg-azulclaro{
+    background-color: #EEEFF9;
+}
+
+.bg-branco{
+    background-color: #F7F7F7;
+}
+
+button{
+    background-color: #4CBF96;
+    color: #003321;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+button:hover{
+    background-color: #98cab9;
+}
+
+.text-branco{
+    color: #E5E8FF;
+}
+
+h1{
+    font-size: 0.78rem;
+    color: #E5E8FF;
+    text-transform: uppercase;
+    font-family: Lato;
+}
+
+h2{
+    font-size: 2rem;
+    color: #404040;
+    font-family: Lato;
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    font-family: Lato;
+    line-height: 1.9rem;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    font-family: Lato;
+}
+
+h5{
+    font-size: 1.12rem;
+    color: #404040;
+    font-family: Lato;
+}
+
+p{
+    font-size: 1rem;
+    color: #0D0D0D;
+    font-family: EBGaramond;
+    line-height: 1.5rem;
+}
+
+.ptopo{
+    font-size: 1.25rem;
+    color: #E5E8FF;
+    font-family: EBGaramond;
+    line-height: 1.9rem;
+}
+
+legend{
+    font-size: 0.87rem;
+    color: #0D0D0D;
+    font-family: Lato;
+    font-style: italic;
+
+}
+
+.legendcard{
+    font-size: 0.87rem;
+    color: #404040;
+    font-family: Lato;
+}
+
+.nav{
+    font-size: 1rem;
+    color: #E5E8FF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Lato;
+}
+
+.nav:hover{
+    color: #bcc0df;
+}
+
+.divtopo{
+    max-width: 35rem;
+}
+
+.card{
+    max-width: 35rem;
+    background-color: #FFFFFF;
+    padding: 3rem 4rem 2rem;
+    border-radius: 0 50px 50px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+
+.bordacard{
+    background: rgb(89,96,178);
+    background: linear-gradient(180deg, rgba(89,96,178,1) 16%, rgba(122,129,204,1) 100%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cardr{
+    max-width: 35rem;
+    background-color: #FFFFFF;
+    padding: 3rem 4rem 2rem;
+    border-radius: 50px 0 0 50px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bordacardr{
+    background: rgb(89,96,178);
+    background: linear-gradient(180deg, rgba(89,96,178,1) 16%, rgba(122,129,204,1) 100%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cardequipe{
+    max-width: 40rem;
+}
+
+.fotoequipe{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 100%;
+}
+
+.aligntop{
+    align-items: flex-start;
+}
+
+.ft{
+    font-size: 0.7rem;
+}
+
+.logoft{
+    width: 100px;
+}
+
+.fa{
+    font-size: 1.2rem;
+}
+
+
+.redessociaistext{
+    font-size: 0.87rem;
+    color: #000540;
+    font-family: Lato;
+    text-decoration: none;
+}
+
+.redessociaistext:hover{
+    color: #161f86;
+}
+
+.yt{
+    font-size: 3rem;
+    color: #4CBF96;
+}
+
+.yt:hover{
+    color: #98cab9;
+}
+
+.cardeventos{
+    max-width: 22rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.lattes{
+    color: #5960B2;
+    text-decoration: none;
+}
+
+.lattes:hover{
+    color: #2e358a;
+}
+
+.contato{
+    font-size: 2rem;
+}
