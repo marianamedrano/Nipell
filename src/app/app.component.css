@@ -112,12 +112,15 @@ legend{
 .divtopo{
     max-width: 45vw;
 }
+    
 
 .card{
     max-width: 38vw;
     background-color: #FFFFFF;
     padding: 3rem 4rem 2rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 5rem 2rem;
+    text-align: left;
 }
 
 .bdl{
@@ -130,12 +133,18 @@ legend{
     border-radius: 50px 0 0 50px;
     border-right-width: 1rem;
     border-right-color: rgb(89,96,178);
+    text-align: right;
 }
 
 
 
 .cardequipe{
     max-width: 40rem;
+}
+
+.claudia{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .fotoequipe{
@@ -198,4 +207,75 @@ legend{
 
 .contato{
     font-size: 2rem;
+}
+
+.copy{
+    font-size: 0.8rem;
+    font-family: Lato !important;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 1000px){
+    .divtopo{
+    max-width: 80vw;
+    text-align: center;
+    }
+
+    .card{
+    max-width: 80vw;
+    min-width: 80vw;
+    padding: 2rem !important;
+    margin-top: 0 !important;
+    }
+    
+    .bdl, .bdr{
+        border-radius: 0 0 10px 10px !important;
+        border-top-width: 0.5rem;
+        border-top-color: rgb(89,96,178);
+        border-left: none;
+        border-right: none;
+        text-align: left !important;
+    }
+
+    #linhasPesquisa{
+        padding-top: 2rem;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .ptopo {
+        font-size: 1rem;
+        color: #E5E8FF;
+        font-family: EBGaramond;
+        line-height: 1.5rem;
+    }
+
+    #sobrefernando {
+        display: none;
+    }
+
+    .cardequipe {
+        justify-content: center;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .claudia, .fernando{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .logoft{
+        display: none;
+    }
+
+    .redessociaistext{
+        display: none;
+    }
+
+    
 }
