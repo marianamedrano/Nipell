@@ -110,37 +110,29 @@ legend{
 }
 
 .divtopo{
-    max-width: 35rem;
+    max-width: 38vw;
 }
 
 .card{
-    max-width: 35rem;
+    max-width: 38vw;
     background-color: #FFFFFF;
     padding: 3rem 4rem 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bdl{
     border-radius: 0 50px 50px 0;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    
+    border-left-width: 1rem;
+    border-left-color: rgb(89,96,178);
 }
 
-.bordacard{
-    background: rgb(89,96,178);
-    background: linear-gradient(180deg, rgba(89,96,178,1) 16%, rgba(122,129,204,1) 100%);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.bdr{
+    border-radius: 50px 0 0 50px;
+    border-right-width: 1rem;
+    border-right-color: rgb(89,96,178);
 }
 
-.cardr{
-    max-width: 35rem;
-    background-color: #FFFFFF;
-    padding: 3rem 4rem 2rem;
-    border-radius: 50px 0 0 50px; 
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
 
-.bordacardr{
-    background: rgb(89,96,178);
-    background: linear-gradient(180deg, rgba(89,96,178,1) 16%, rgba(122,129,204,1) 100%);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
 
 .cardequipe{
     max-width: 40rem;
